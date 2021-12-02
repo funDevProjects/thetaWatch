@@ -1,0 +1,8 @@
+.card.bg-transparent.border-info.infoBg {
+	background: #66C3AB !important;
+}
+.about .col-md-4.p-3 {
+    height: 690px;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}

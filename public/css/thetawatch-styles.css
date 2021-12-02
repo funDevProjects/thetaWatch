@@ -1,0 +1,226 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+body {
+	background: linear-gradient(#191C2F,#1f233a);
+    font-size: 1.05rem !important;
+}
+.img-fluid.logo {
+	width: 250px;
+}
+.gateway .card-body {
+	padding: 50px !important;
+}
+.nav-link.text-white {
+	margin-left: 15px;
+}
+.text-info {
+	color: #66C3AB !important;
+}
+.card.bg-transparent.border-info {
+	position: absolute;
+	width: 100%;
+	border: 3px solid #66C3AB !important;
+	border-radius: 25px;
+}
+.card.bg-info {
+	position: absolute;
+	left: 0;
+	width: 61.33%;
+	padding-left: 7.5vw;
+	margin-top: 15px;
+    padding-left: 7.5% !important;
+    border-radius: 0 25px 25px 0 !important;
+}
+.card.h-33.border-info1.bg-transparent.position-relative {
+	font-size: 20px;
+	padding-right: 70px !important;
+	padding-top: 0px;
+	padding-left: 10px;
+}
+body, html{
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+.gateway {
+	height: 250px;
+}
+.card.border-info.bg-info {
+	background: #66C3AB !important;
+	border-color: #66C3AB !important;
+	padding: 35px 35px 35px 5%;
+	border-radius: 0 25px 25px 0;
+}
+.card.border-info.bg-info {
+	position: absolute;
+	left: 0;
+	width: 58.31%;
+}
+.card.h-33.border-info1.bg-transparent {
+	height: 175px;
+	margin: 30px;
+	border: 3px solid #66C3AB;
+	border-radius: 25px;
+}
+.card.bg-info {
+	background: #66C3AB !important;
+	padding: 35px 35px 50px 35px;
+	border-radius: 25px;
+}
+.btn.btn-outline-info.px-5.rounded-pill.py-3.mt-4 {
+	border-color: #66C3AB;
+    color: #66C4AC !important;
+}
+.bg-dark{
+    background-color: #161829 !important;
+}
+.nav-link.text-white {
+	font-weight: 600;
+}
+.nav-link:hover {
+	color: #66C3AB !important;
+	letter-spacing: 2px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+.nav-item {
+	overflow: hidden;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.overlay {
+	background: linear-gradient(transparent,#64C1AA);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: 0.2s;
+	transform: translateY(100%);
+	z-index: 1;
+}
+.css-tw-linkboxes .card-body{
+	z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	padding: 1rem 2rem;
+    font-size: 1.45rem;
+}
+.card.h-33{
+    overflow: hidden !important;
+}
+.card:hover .overlay{
+    transform: translateY(0);
+}
+.btn.btn-outline-info.px-5.rounded-pill.py-3.mt-4:hover {
+	background: #66C4AC;
+	color: white !important;
+}
+.css-tw-pagebody{max-width:900px !important;}
+.css-tw-pagebody-lg{max-width:1200px !important;}
+
+/* BEGIN SAVERSHIM */
+	.css-moon-saverscreen{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		/*background-color: #EBF2EE 0% 0% no-repeat padding-box;*/
+		border-radius: 0px;
+		z-index: 9;
+		background-repeat: no-repeat;
+		background-position: center;
+		color: transparent;
+		/*background: linear-gradient(100deg, #eceff1 30%, #f6f7f8 50%, #eceff1 70%);*/
+		background-size: 400%;
+		animation: loading 1.5s ease-in-out infinite;
+	}
+	.css-moon-savershim {
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.css-moon-savernote{
+		font-weight: 600;
+		font-size: 1.25rem;
+		color: #333;
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	/* END SAVERSHIM */ 
+@media screen and (max-width: 992px){
+    .nav-item {
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .nav-link.text-white {
+        margin-left: 0;
+    }
+    .card.bg-transparent.border-info {
+        position: unset;
+    }
+    .navbar-toggler{
+        border: unset;
+    }
+    .ps-5 {
+        padding-left: 35px !important;
+    }
+    .card.h-33.border-info1.bg-transparent.position-relative {
+        font-size: 12px;
+        padding-right: 10px !important;
+        padding-top: 0px;
+        padding-left: 10px;
+        margin: 10px;
+    }
+    .card.bg-info {
+        position: unset;
+        width: 100%;
+        border-radius: 25px !important;
+    }
+    body{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .img-fluid.logo {
+		width: 200px;
+	}
+	.gateway {
+        height: 175px;
+    }
+    .ps-5 {
+        padding-left: 0 !important;
+    }
+    .card.h-33.border-info1.bg-transparent.position-relative .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card.h-33.border-info1.bg-transparent.position-relative {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gateway .card-body {
+        padding: 30px !important;
+    }
+    .card.h-33.border-info1.bg-transparent.position-relative {
+        font-size: 18px;
+        padding-right: 10px !important;
+        padding-top: 0px;
+        padding-left: 10px;
+        margin: 10px;
+    }
+}
